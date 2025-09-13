@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-container{
+    background-color: #0000001f;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 2%;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 100px 0px rgba(255, 255, 255, 0.116);
+}
+
+.left-nav{
+
+
+}
+
+.right-nav{
+    color: white;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.right-nav img{
+    width: 7%;
+}
