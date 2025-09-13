@@ -1,0 +1,32 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Navbar-container{
+    margin: 20px;
+    padding: 5px;
+    width: 80vw;
+    height: auto;
+    background-color: #9d9d9dad;
+    display: flex;
+    border-radius: 15px;
+    border: 2px solid #c7c7c7;
+    box-shadow: 1px 1px 2px #9D9D9D ;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.navbar-icon {
+    
+    width: 5%;
+    height: auto;
+    transition: transform 0.1s ease-in-out;
+}
+
+.navbar-icon:hover {
+    cursor: pointer;
+    transform: scale(1.2) translateY(-15px);
+}
