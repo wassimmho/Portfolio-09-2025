@@ -8,9 +8,10 @@ body{
 .Navbar-container{
     margin: 20px;
     padding: 5px;
-    width: 60vw;
+    width: 70vw;
     height: auto;
-    background-color: #9d9d9dad;
+    background-color: #7473738a;
+    backdrop-filter: blur(10px);
     display: flex;
     border-radius: 15px;
     border: 2px solid #c7c7c7;
